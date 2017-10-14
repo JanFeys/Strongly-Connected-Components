@@ -1,4 +1,5 @@
-#coded in python3
+#!/usr/bin/env python3
+
 import time
 
 def load_graph(file_name, reverse):
@@ -98,7 +99,7 @@ def DFS_ls(g,fts):
     return ls, l_freqs
 
 if __name__ == "__main__":
-    file_name =  'SCCtestgraph.txt'
+    file_name =  'SCCtest5.txt'
 
     start = time.time()
     
